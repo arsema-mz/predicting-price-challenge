@@ -1,1 +1,12 @@
- 
+venv/
+env/
+ENV/
+.venv/
+
+*.csv
+*.xlsx
+
+.ipynb_checkpoints/
+
+.vscode/
+.idea/
