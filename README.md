@@ -8,6 +8,7 @@ This project involves exploratory data analysis (EDA) on the Financial News and 
 - Analyze common keywords and phrases using natural language processing (NLP).
 - Examine publication frequency over time and identify significant spikes.
 - Assess publisher contributions and analyze the types of news reported.
+- Explore the correlation between news sentiment and stock price movements.
 
 ## Dataset
 The dataset consists of:
@@ -18,11 +19,13 @@ The dataset consists of:
 - **stock**: Associated company ticker symbols.
 
 ## Methodology
-1. **Data Loading**: Load the dataset into a pandas DataFrame.
-2. **Descriptive Statistics**: Analyze headline lengths, article counts per publisher, and publication dates.
-3. **Text Analysis**: Use NLP techniques to identify common keywords and phrases.
-4. **Time Series Analysis**: Analyze publication frequency over time.
-5. **Publisher Analysis**: Identify the most active publishers and analyze their contributions.
+1. **Data Loading**: Loaded the dataset into a pandas DataFrame.
+2. **Descriptive Statistics**: Analyzed headline lengths, article counts per publisher, and publication dates.
+3. **Text Analysis**: Used NLP techniques to identify common keywords and phrases.
+4. **Time Series Analysis**: Analyzed publication frequency over time.
+5. **Publisher Analysis**: Identified the most active publishers and analyzed their contributions.
+6. **Sentiment Analysis**: Conducted sentiment analysis on news headlines to quantify the tone of articles.
+7. **Stock Movement Analysis**: Calculated daily stock returns and explored the correlation between sentiment scores and stock movements.
 
 ## Results
 - Summary of key findings from the analysis, including:
@@ -30,14 +33,16 @@ The dataset consists of:
   - Most active publishers.
   - Notable publication trends.
   - Common keywords identified through NLP.
+  - Correlation between news sentiment and stock returns.
 
 ## Challenges
 - Data quality issues, including missing values and inconsistencies.
 - Complexity in implementing NLP techniques for keyword extraction.
 - Handling time series data and date formats.
+- Analyzing the relationship between sentiment and stock movements.
 
 ## Conclusion
-The analysis provided valuable insights into the relationships between financial news and stock market behavior. The findings can inform further research and predictive modeling efforts.
+The analysis provided valuable insights into the relationships between financial news and stock market behavior. Findings indicate that while sentiment scores fluctuate, they do not consistently predict stock movements. The results can inform further research and predictive modeling efforts.
 
 ## Installation
 To run this project, ensure you have the following installed:
